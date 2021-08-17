@@ -1,55 +1,71 @@
-# Getting Started
+# [Start Bootstrap - Stylish Portfolio](https://startbootstrap.com/theme/stylish-portfolio/)
 
-These steps will get this sample HTML application running for you using DigitalOcean App Platform.
+[Stylish Portfolio](https://startbootstrap.com/theme/stylish-portfolio/) is a responsive, one page portfolio theme for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). The theme features multiple content sections with an off canvas navigation menu.
 
-**Note: Following these steps may result in charges for the use of DigitalOcean services**
+## Preview
 
-## Requirements
+[![Stylish Portfolio Preview](https://assets.startbootstrap.com/img/screenshots/themes/stylish-portfolio.png)](https://startbootstrap.github.io/startbootstrap-stylish-portfolio/)
 
-* You need a DigitalOcean account. If you don't already have one, you can sign up at https://cloud.digitalocean.com/registrations/new
-    
-## Deploying the App
+**[View Live Preview](https://startbootstrap.github.io/startbootstrap-stylish-portfolio/)**
 
-Click this button to deploy the app to the DigitalOcean App Platform. If you are not logged in, you will be prompted to log in with your DigitalOcean account.
+## Status
 
-[![Deploy to DigitalOcean](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/digitalocean/sample-html/tree/main)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/StartBootstrap/startbootstrap-stylish-portfolio/master/LICENSE)
+[![npm version](https://img.shields.io/npm/v/startbootstrap-stylish-portfolio.svg)](https://www.npmjs.com/package/startbootstrap-stylish-portfolio)
+[![dependencies Status](https://david-dm.org/StartBootstrap/startbootstrap-stylish-portfolio/status.svg)](https://david-dm.org/StartBootstrap/startbootstrap-stylish-portfolio)
+[![devDependencies Status](https://david-dm.org/StartBootstrap/startbootstrap-stylish-portfolio/dev-status.svg)](https://david-dm.org/StartBootstrap/startbootstrap-stylish-portfolio?type=dev)
 
-Using this button disable the "Auto deploy changes on push" feature as you are using this repo directly. If you wish to try that feature, you will need to make your own copy of this repository.
+## Download and Installation
 
-To make a copy, click the Fork button above and follow the on-screen instructions. In this case, you'll be forking this repo as a starting point for your own app (see [GitHub documentation](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo) to learn more about forking repos.
+To begin using this template, choose one of the following options to get started:
 
-After forking the repo, you should now be viewing this README in your own github org (e.g. `https://github.com/<your-org>/sample-html`). To deploy the new repo, visit https://cloud.digitalocean.com/apps and click "Create App" or "Launch Your App". Then, select the repository you created and be sure to select the `main` branch.
+* [Download the latest release on Start Bootstrap](https://startbootstrap.com/theme/stylish-portfolio/)
+* Install via npm: `npm i startbootstrap-stylish-portfolio`
+* Clone the repo: `git clone https://github.com/StartBootstrap/startbootstrap-stylish-portfolio.git`
+* [Fork, Clone, or Download on GitHub](https://github.com/StartBootstrap/startbootstrap-stylish-portfolio)
 
-After clicking the "Deploy to DigitalOcean" button or completing the instructions above to fork the repo, follow these steps:
+## Usage
 
-1. Select which region you wish to deploy your app to and click Next. The closest region to you should be selected by default. All App Platform apps are routed through a global CDN so this will not affect your app performance, unless it needs to talk to external services.
-1. On the following screen, leave all the fields as they are and click Next.
-1. Confirm your Plan settings and how many containers you want to launch and click **Launch Basic/Pro App**.
-1. You should see a "Building..." progress indicator. And you can click "Deployments"→"Details" to see more details of the build.
-1. It can take a few minutes for the build to finish, but you can follow the progress by clicking the "Details" link in the top banner.
-1. Once the build completes successfully, click the "Live App" link in the header and you should see your running application in a new tab, displaying the home page.
+### Basic Usage
 
-## Making Changes to Your App
+After downloading, simply edit the HTML and CSS files included with `dist` directory. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
 
-If you followed the steps above to fork the repo and used your own copy when deploying the app, you can enjoy automatic deploys whenever changes are made to the repo. During these automatic deployments, your application will never pause or stop serving request because App Platform offers zero-downtime deployments.
+### Advanced Usage
 
-Here's an example code change you can make for this app:
+Clone the source files of the theme and navigate into the theme's root directory. Run `npm install` and then run `npm start` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `package.json` file to see which scripts are included.
 
-1. Edit code within the repository
-1. Commit the change to the `main` branch. Normally it's a better practice to create a new branch for your change and then merge that branch to `main` after review, but for this demo you can commit to the `main` branch directly.
-1. Visit https://cloud.digitalocean.com/apps and navigate to your sample app.
-1. You should see a "Building..." progress indicator, just like when you first created the app.
-1. Once the build completes successfully, click the "Live App" link in the header and you should see your updated application running. You may need to force refresh the page in your browser (e.g. using Shift+Reload).
+#### npm Scripts
 
-## Learn More
+* `npm run build` builds the project - this builds assets, HTML, JS, and CSS into `dist`
+* `npm run build:assets` copies the files in the `src/assets/` directory into `dist`
+* `npm run build:pug` compiles the Pug located in the `src/pug/` directory into `dist`
+* `npm run build:scripts` brings the `src/js/scripts.js` file into `dist`
+* `npm run build:scss` compiles the SCSS files located in the `src/scss/` directory into `dist`
+* `npm run clean` deletes the `dist` directory to prepare for rebuilding the project
+* `npm run start:debug` runs the project in debug mode
+* `npm start` or `npm run start` runs the project, launches a live preview in your default browser, and watches for changes made to files in `src`
 
-You can learn more about the App Platform and how to manage and update your application at https://www.digitalocean.com/docs/app-platform/.
+You must have npm installed in order to use this build environment.
 
-## Deleting the App
+## Bugs and Issues
 
-When you no longer need this sample application running live, you can delete it by following these steps:
-1. Visit the Apps control panel at https://cloud.digitalocean.com/apps
-1. Navigate to the sample app
-1. Choose "Settings"->"Destroy"
+Have a bug or an issue with this template? [Open a new issue](https://github.com/StartBootstrap/startbootstrap-stylish-portfolio/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](https://startbootstrap.com/theme/stylish-portfolio/).
 
-**Note: If you don't delete your app, charges for the use of DigitalOcean services will continue to accrue.**
+## About
+
+Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
+
+* <https://startbootstrap.com>
+* <https://twitter.com/SBootstrap>
+
+Start Bootstrap was created by and is maintained by **[David Miller](https://davidmiller.io/)**.
+
+* <https://davidmiller.io>
+* <https://twitter.com/davidmillerhere>
+* <https://github.com/davidtmiller>
+
+Start Bootstrap is based on the [Bootstrap](https://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+
+## Copyright and License
+
+Copyright 2013-2021 Start Bootstrap LLC. Code released under the [MIT](https://github.com/StartBootstrap/startbootstrap-stylish-portfolio/blob/master/LICENSE) license.
